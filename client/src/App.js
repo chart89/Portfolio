@@ -1,13 +1,15 @@
+import './styles/global.scss';
+import Container from './components/views/Container/Container';
+
 const App = () => {
 
   return (
- 
-    <h1>Hello world</h1>
- 
+    <Container>
+      <h1>Hello world</h1>
+    </Container>
   );
  
  };
  
- 
- 
+
  export default App;

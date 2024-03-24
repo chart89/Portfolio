@@ -1,0 +1,41 @@
+@import '../../../styles/settings.scss';
+
+.navbarDiv {
+    h1 {
+        font-family: $font-logo;
+        font-size: 50px;
+        color: grey;
+    }
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+}
+
+.heroDiv {
+    h1 {
+        font-family: $font-logo;
+        font-size: 50px;
+        color: grey;
+    }
+}
+
+.navlinkDiv {
+    width: 100%;
+    p {
+        font-family: $font-link;
+        line-height: 0;
+        font-size: 20px;
+        color: grey;
+    }
+    ul {
+        list-style-type: none;
+        display: inline-flex;
+        margin: 0;
+    }
+    li {
+        margin: 0 10px;
+    }
+
+}
